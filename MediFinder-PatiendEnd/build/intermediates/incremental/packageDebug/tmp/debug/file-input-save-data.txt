@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Mar 02 08:45:26 IST 2019
+#Sat Mar 02 09:21:55 IST 2019
 1.base=/home/ayush/AndroidStudioProjects/MediFinderFinal-master/MediFinder-PatiendEnd/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 2.path=classes.dex
 0.baseType=DIRECTORY

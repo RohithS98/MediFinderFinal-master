@@ -33,6 +33,7 @@ public class nearbyHospital extends AppCompatActivity {
 
         //To Receive updated of Locations from Emergency clicked button
         super.onCreate(savedInstanceState);
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
         setContentView(R.layout.activity_nearby_hospital);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Intent intent2=getIntent();

@@ -52,6 +52,7 @@ public class Main2Activity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    overridePendingTransition(R.anim.fadein, R.anim.fadeout);
     setContentView(R.layout.activity_main_1);
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);

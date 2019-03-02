@@ -19,6 +19,7 @@ public class SignUp1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
         setContentView(R.layout.activity_sign_up1);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

@@ -16,9 +16,9 @@ public class HospitalScreenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
         setContentView(R.layout.activity_hospital_screen);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
     }
 
     public void updateInfo(View view){

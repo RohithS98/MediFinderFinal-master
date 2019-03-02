@@ -121,6 +121,7 @@ public class SignUp2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
         setContentView(R.layout.activity_sign_up2);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         c1 = (CheckBox)findViewById(R.id.checkBox1);
