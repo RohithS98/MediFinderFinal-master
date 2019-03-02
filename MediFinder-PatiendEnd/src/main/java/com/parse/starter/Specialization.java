@@ -81,31 +81,38 @@ public class Specialization extends AsyncTask<String, Void, String> {
 
         try {
             JSONArray arr = new JSONArray(result);
-            String s="";
-
-            for(int i=0;i<arr.length() && i<2;i++)
+            if(arr.length()==0)
             {
-                JSONObject obj = arr.getJSONObject(i);
-                JSONObject issueobj = new JSONObject(obj.getString("Issue"));
-                Log.i("INFO",issueobj.getString("Name"));
-                s=s+'\n'+"ISSUE: "+issueobj.getString("Name");
-                addSymptoms.e1.setText(s);
+                addSymptoms.e1.setText("SPECIALISATION: Contact General Practioner");
+            }
+            else
+            {
+                String s="";
 
-                JSONArray specarr = new JSONArray(obj.getString("Specialisation"));
-                //Log.i("SIZE",String.valueOf(specarr));
-                for(int j=0;j<specarr.length() && j<2 ;j++)
+                for(int i=0;i<arr.length() && i<2;i++)
                 {
-                    JSONObject specobj = specarr.getJSONObject(j);
-                    Log.i("Specialisation",specobj.getString("Name"));
-                    s=s+'\n'+"SPECIALISATION: "+specobj.getString("Name")+"\n";
+                    JSONObject obj = arr.getJSONObject(i);
+                    JSONObject issueobj = new JSONObject(obj.getString("Issue"));
+                    Log.i("INFO",issueobj.getString("Name"));
+                    s=s+'\n'+"ISSUE: "+issueobj.getString("Name");
                     addSymptoms.e1.setText(s);
+
+                    JSONArray specarr = new JSONArray(obj.getString("Specialisation"));
+                    //Log.i("SIZE",String.valueOf(specarr));
+                    for(int j=0;j<specarr.length() && j<2 ;j++)
+                    {
+                        JSONObject specobj = specarr.getJSONObject(j);
+                        Log.i("Specialisation",specobj.getString("Name"));
+                        s=s+'\n'+"SPECIALISATION: "+specobj.getString("Name")+"\n";
+                        addSymptoms.e1.setText(s);
+                    }
                 }
             }
         }
         catch(JSONException e)
         {
             Log.i("INFO","Contact General Practioner");
-            addSymptoms.e1.setText("SPECIALISATION: Contact General Practioner");
+
         }
     }
 }
