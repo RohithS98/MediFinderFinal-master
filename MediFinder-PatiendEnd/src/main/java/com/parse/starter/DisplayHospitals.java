@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.parse.FindCallback;
@@ -25,12 +26,14 @@ public class DisplayHospitals extends AppCompatActivity {
         Intent intent = getIntent();
 
         String id = intent.getStringExtra("hospital");
-        Log.i("String ",id);
+        Log.i("String",id);
         String[] nameID = id.split(" ");
-        Log.i("String ",String.valueOf(nameID[1]));
+        final String phoneNum = String.valueOf(intent.getStringExtra("phno"));
+        Log.i("Stringphno",phoneNum);
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Hospital");
         query.whereEqualTo("ID",String.valueOf(nameID[1]).trim());
         final TextView textView = (TextView)findViewById(R.id.details);
+        final Button call = (Button) findViewById(R.id.callButton);
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
             public void done(List<ParseObject> objects, ParseException e) {
@@ -40,6 +43,14 @@ public class DisplayHospitals extends AppCompatActivity {
                         String open = String.valueOf(object.get("open"));
                         Log.i("Open",open);
                         textView.setText(open);
+                        call.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Intent intent = new Intent(Intent.ACTION_DIAL);
+                                intent.setData(Uri.parse("tel:"+phoneNum));
+                                startActivity(intent);
+                            }
+                        });
                     }
                 }
             }

@@ -58,6 +58,7 @@ public class nearbyHospital extends AppCompatActivity {
                         HashMap<String, Double> hm = new HashMap<>();
                         final ListView hospitalView=(ListView)findViewById(R.id.nearby);
                         HashMap<HashMap<Double,Double>,Double> final_map = new HashMap<>();
+                        HashMap<String, String> phoneBook = new HashMap<>();
 
                         for (ParseObject object : objects) {
                             double MyLatitude = Double.parseDouble(lat);
@@ -66,6 +67,7 @@ public class nearbyHospital extends AppCompatActivity {
                             String longitude = object.getString("Longitude");
                             String ID = object.getString("ID");
                             String name = object.getString("name");
+                            String phno = object.getString("phno");
                             name = name+" "+(ID);
 
                             double newLatitude = Double.parseDouble(latitude);
@@ -78,6 +80,7 @@ public class nearbyHospital extends AppCompatActivity {
                             HashMap<Double, Double> latlng = new HashMap<>();
                             latlng.put(newLatitude, newLongitude);
                             final_map.put(latlng,distance*1.63);
+                            phoneBook.put(name, phno);
 
                         }
 
@@ -104,6 +107,7 @@ public class nearbyHospital extends AppCompatActivity {
                             hospital = new hospitalDetails();
                             hospital.setName(en.getKey());
                             hospital.setDistance(en.getValue());
+                            hospital.setPhone(phoneBook.get(en.getKey()));
                             hospitals.add(hospital);
                             Log.i("InformationNames", "Key = " + en.getKey() + ", Value = " + en.getValue());
                         }
@@ -139,6 +143,7 @@ public class nearbyHospital extends AppCompatActivity {
                                 intent.putExtra("hospital",name);
                                 intent.putExtra("Lat",lat);
                                 intent.putExtra("Lon",lon);
+                                intent.putExtra("phno",h1.getPhone());
                                 startActivity(intent);
                             }
                         });

@@ -1,18 +1,18 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:mediarouter-v7:23.0.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/c9bee1179f7072f48d7873ef0e8c89ff/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/dadb1f98448cbb8e9b837cd41a72ce3c/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/c9bee1179f7072f48d7873ef0e8c89ff/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/c9bee1179f7072f48d7873ef0e8c89ff/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/c9bee1179f7072f48d7873ef0e8c89ff/jars/libs/internal_impl-23.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/dadb1f98448cbb8e9b837cd41a72ce3c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/dadb1f98448cbb8e9b837cd41a72ce3c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/dadb1f98448cbb8e9b837cd41a72ce3c/jars/libs/internal_impl-23.0.0.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/mediarouter-v7/23.0.0/mediarouter-v7-23.0.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/mediarouter-v7/23.0.0/mediarouter-v7-23.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/mediarouter-v7/23.0.0/mediarouter-v7-23.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/mediarouter-v7/23.0.0/mediarouter-v7-23.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
