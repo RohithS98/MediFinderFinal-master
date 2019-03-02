@@ -784,6 +784,8 @@ drawable common_plus_signin_btn_text_light_disabled
 drawable common_plus_signin_btn_text_light_focused
 drawable common_plus_signin_btn_text_light_normal
 drawable common_plus_signin_btn_text_light_pressed
+drawable hospbutton_active
+drawable hospbutton_inactive
 drawable ic_cast_dark
 drawable ic_cast_disabled_light
 drawable ic_cast_light
@@ -825,6 +827,8 @@ drawable mr_ic_play_light
 drawable mr_ic_settings_dark
 drawable mr_ic_settings_light
 drawable notification_template_icon_bg
+drawable patbutton_active
+drawable patbutton_inactive
 drawable places_ic_clear
 drawable places_ic_search
 drawable powered_by_google_dark
@@ -1001,6 +1005,8 @@ id gotoLogin
 id gotoSignup
 id grayscale
 id groups
+id guideline
+id guideline2
 id holo_dark
 id holo_light
 id home
@@ -1166,6 +1172,8 @@ id text1
 id text2
 id textSpacerNoButtons
 id textTitle
+id textView
+id textView2
 id text_empty_message
 id text_list_view
 id thing_proto

@@ -21,7 +21,7 @@
 
     <EditText
         android:id="@+id/usernameEditText"
-        android:layout_width="wrap_content"
+        android:layout_width="386dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -40,7 +40,7 @@
 
     <EditText
         android:id="@+id/passwordEditText"
-        android:layout_width="wrap_content"
+        android:layout_width="386dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -102,12 +102,13 @@
 
     <EditText
         android:id="@+id/setDate"
-        android:focusableInTouchMode="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:focusableInTouchMode="false"
         android:hint="Select Date..."
         android:inputType="textPersonName"
+        android:text="Select DOB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

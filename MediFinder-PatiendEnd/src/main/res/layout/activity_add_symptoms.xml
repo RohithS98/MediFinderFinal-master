@@ -13,27 +13,19 @@
         android:id="@+id/change"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="200dp"
-        android:layout_marginRight="200dp"
-        android:layout_marginBottom="200dp"
+        android:layout_below="@id/symps"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
         android:onClick="goToSymptoms"
-        android:text="AddSymptoms" />
+        android:text="Add Symptoms" />
 
     <EditText
         android:id="@+id/symps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="25dp"
+
         android:ems="10"
-        android:hint="symptoms"
+        android:hint="Symptoms"
         android:inputType="textMultiLine"
         android:lines="10"
         android:minLines="4" />
@@ -42,28 +34,21 @@
         android:id="@+id/processData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginLeft="46dp"
-        android:layout_marginTop="209dp"
+        android:layout_below="@id/results"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
         android:onClick="retreiveToken"
-        android:text="GetToken" />
+        android:text="Get Token" />
 
     <EditText
         android:id="@+id/results"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="90dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginBottom="100dp"
+        android:layout_width="323dp"
+        android:layout_height="325dp"
+        android:layout_below="@+id/change"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
         android:ems="10"
-        android:hint="issues and specialisation"
+        android:hint="issues and Specialisation"
         android:inputType="textMultiLine" />
 
 </RelativeLayout>
