@@ -696,7 +696,6 @@ drawable abc_textfield_default_mtrl_alpha
 drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
-drawable bg
 drawable cast_album_art_placeholder
 drawable cast_album_art_placeholder_large
 drawable cast_expanded_controller_actionbar_bg_gradient_light
@@ -784,8 +783,15 @@ drawable common_plus_signin_btn_text_light_disabled
 drawable common_plus_signin_btn_text_light_focused
 drawable common_plus_signin_btn_text_light_normal
 drawable common_plus_signin_btn_text_light_pressed
-drawable hospbutton_active
+drawable facility
+drawable front
+drawable hlogin
+drawable hosp
 drawable hospbutton_inactive
+drawable hospi
+drawable hospi1
+drawable hospital
+drawable hospital1
 drawable ic_cast_dark
 drawable ic_cast_disabled_light
 drawable ic_cast_light
@@ -812,6 +818,7 @@ drawable ic_plusone_standard_off_client
 drawable ic_plusone_tall_off_client
 drawable ic_setting_dark
 drawable ic_setting_light
+drawable images
 drawable logo
 drawable medical
 drawable mr_ic_cast_dark
@@ -827,10 +834,12 @@ drawable mr_ic_play_light
 drawable mr_ic_settings_dark
 drawable mr_ic_settings_light
 drawable notification_template_icon_bg
-drawable patbutton_active
+drawable page1
+drawable page2
 drawable patbutton_inactive
 drawable places_ic_clear
 drawable places_ic_search
+drawable plogin
 drawable powered_by_google_dark
 drawable powered_by_google_light
 drawable quantum_ic_art_track_grey600_48
@@ -873,7 +882,10 @@ drawable quantum_ic_volume_mute_grey600_36
 drawable quantum_ic_volume_mute_white_36
 drawable quantum_ic_volume_off_grey600_36
 drawable quantum_ic_volume_off_white_36
+drawable second
 drawable templogo
+drawable third
+drawable user
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1174,6 +1186,7 @@ id textSpacerNoButtons
 id textTitle
 id textView
 id textView2
+id textView3
 id text_empty_message
 id text_list_view
 id thing_proto
