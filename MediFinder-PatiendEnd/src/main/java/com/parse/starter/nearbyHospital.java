@@ -43,7 +43,7 @@ public class nearbyHospital extends AppCompatActivity {
 
         //List View for showing Hospitals
 
-        final ParseQuery<ParseObject> query = ParseQuery.getQuery("Latlng");
+        final ParseQuery<ParseObject> query = ParseQuery.getQuery("Hospital");
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
             public void done(List<ParseObject> objects, ParseException e) {
@@ -61,9 +61,9 @@ public class nearbyHospital extends AppCompatActivity {
                             double MyLongitude = Double.parseDouble(lon);
                             String latitude = object.getString("Latitude");
                             String longitude = object.getString("Longitude");
-                            int ID = object.getInt("ID");
+                            String ID = object.getString("ID");
                             String name = object.getString("name");
-                            name = name+" "+Integer.toString(ID);
+                            name = name+" "+(ID);
 
                             double newLatitude = Double.parseDouble(latitude);
                             double newLongitude = Double.parseDouble(longitude);
