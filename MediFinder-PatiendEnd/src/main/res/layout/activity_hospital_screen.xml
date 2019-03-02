@@ -33,20 +33,21 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logout"
-        android:text="Log Out"
+        android:id="@+id/emergency"
+        android:text="Emergency"
         android:layout_below="@id/update"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:onClick="logOut"/>
+        android:onClick="emergency"/>
 
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/callTest"-->
-        <!--android:layout_below="@id/logout"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:text="Call Test"-->
-        <!--android:onClick="tryCall"/>-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="Log Out"
+        android:layout_below="@id/emergency"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="logOut"/>
 
 </RelativeLayout>

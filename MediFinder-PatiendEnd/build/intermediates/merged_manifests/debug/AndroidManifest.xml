@@ -47,6 +47,7 @@
         <activity android:name="com.parse.starter.SignUp1Activity" />
         <activity android:name="com.parse.starter.SignUp2Activity" />
         <activity android:name="com.parse.starter.HospitalScreenActivity" />
+        <activity android:name="com.parse.starter.hospitalEmergency" />
         <activity
             android:name="com.parse.starter.MainActivity"
             android:label="Medifinder-Patient" >

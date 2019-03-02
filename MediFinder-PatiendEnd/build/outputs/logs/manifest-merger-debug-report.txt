@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\96193d89475fc348d263caec5d1ace59\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\play-services-9.4.0.aar\6a065eaca9301fdd3243092499e64380\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-9.4.0.aar\026cb841e3400ddc9ff4fb71a220f772\AndroidManifest.xml:2:1-10:12
@@ -60,20 +60,20 @@ MERGED from [com.google.android.gms:play-services-gass:9.4.0] C:\Users\sudheer\.
 MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\23abc168e4a0c578e0617019c25b51a9\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\409926340a1894284edf00ba26c1a87d\AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\7aa37a61bdd7d19e4937af46513777c0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:2:11-69
@@ -140,7 +140,7 @@ ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFin
 	android:name
 		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:9:22-78
 application
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:11:5-50:19
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:11:5-51:19
 MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\play-services-9.4.0.aar\6a065eaca9301fdd3243092499e64380\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\play-services-9.4.0.aar\6a065eaca9301fdd3243092499e64380\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] C:\Users\sudheer\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-9.4.0.aar\026cb841e3400ddc9ff4fb71a220f772\AndroidManifest.xml:5:5-9:19
@@ -287,44 +287,48 @@ activity#com.parse.starter.HospitalScreenActivity
 ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:27:9-60
 	android:name
 		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:27:19-57
+activity#com.parse.starter.hospitalEmergency
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:28:9-54
+	android:name
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:28:19-52
 activity#com.parse.starter.MainActivity
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:28:9-36:20
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:30:13-47
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:29:13-41
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:30:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:35:27-74
 activity#com.parse.starter.ListActivity
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:37:9-39:50
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:38:9-40:50
 	android:label
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:39:13-47
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:40:13-47
 	android:name
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:38:13-41
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:39:13-41
 service#com.parse.starter.MyService
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:41:9-43:38
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:42:9-44:38
 	android:enabled
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:43:13-35
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:44:13-35
 	android:name
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:42:13-38
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:43:13-38
 receiver#com.parse.starter.SensorRestarterBroadcastReceiver
-ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:45:9-49:57
+ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:46:9-50:57
 	android:enabled
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:47:13-35
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:48:13-35
 	android:label
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:49:13-54
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:50:13-54
 	android:exported
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:48:13-36
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:46:13-61
+		ADDED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml:47:13-61
 uses-sdk
 INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sudheer\AndroidStudioProjects\MediFinderFinal-master\MediFinder-PatiendEnd\src\main\AndroidManifest.xml

@@ -981,6 +981,8 @@ id donate_with
 id donate_with_google
 id edit_query
 id email
+id emergency
+id emergencyHospital
 id emergenece
 id end
 id end_padder
@@ -1236,6 +1238,7 @@ layout cast_intro_overlay
 layout cast_mini_controller
 layout cast_tracks_chooser_dialog_layout
 layout cast_tracks_chooser_dialog_row_layout
+layout content_hospital_emergency
 layout custom_row
 layout list_layout
 layout mr_media_route_chooser_dialog

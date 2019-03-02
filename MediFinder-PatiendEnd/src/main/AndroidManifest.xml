@@ -25,6 +25,7 @@
         <activity android:name=".SignUp1Activity" />
         <activity android:name=".SignUp2Activity" />
         <activity android:name=".HospitalScreenActivity" />
+        <activity android:name=".hospitalEmergency"/>
         <activity
             android:name=".MainActivity"
             android:label="Medifinder-Patient">

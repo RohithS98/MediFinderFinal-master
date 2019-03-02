@@ -26,6 +26,11 @@ public class HospitalScreenActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void emergency(View view){
+        Intent intent = new Intent(HospitalScreenActivity.this, hospitalEmergency.class);
+        startActivity(intent);
+    }
+
     public void logOut(View view) {
         ParseUser.logOutInBackground(new LogOutCallback() {
             @Override
