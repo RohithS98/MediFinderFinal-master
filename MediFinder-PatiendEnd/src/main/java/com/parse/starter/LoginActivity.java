@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.parse.LogInCallback;
+import com.parse.LogOutCallback;
 import com.parse.ParseAnalytics;
 import com.parse.ParseException;
 import com.parse.ParseUser;
@@ -37,10 +38,22 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void done(ParseUser user, ParseException e) {
                     if (user != null) {
+                        Log.i("Check123", user.getUsername());
+                        Log.i("Check123", String.valueOf(user.getBoolean("isHospital")));
                         Log.i("Signup", "Login successful");
-                        Toast.makeText(LoginActivity.this, "Successful Log In", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(LoginActivity.this, HospitalScreenActivity.class);
-                        startActivity(intent);
+                        if(!user.getBoolean("isHospital")){
+                            ParseUser.logOutInBackground(new LogOutCallback() {
+                                @Override
+                                public void done(ParseException e) {
+                                    Toast.makeText(LoginActivity.this, "Invalid credentials", Toast.LENGTH_SHORT).show();
+                                }
+                            });
+                        }
+                        else{
+                            Toast.makeText(LoginActivity.this, "Successful Log In", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(LoginActivity.this, HospitalScreenActivity.class);
+                            startActivity(intent);
+                        }
                     } else {
                         Toast.makeText(LoginActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
