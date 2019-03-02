@@ -17,8 +17,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.parse.ParseAnalytics;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 

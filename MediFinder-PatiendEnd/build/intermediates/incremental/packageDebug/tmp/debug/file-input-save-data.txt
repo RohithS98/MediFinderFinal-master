@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Mar 02 10:24:43 IST 2019
+#Sat Mar 02 10:50:24 IST 2019
 1.base=C\:\\Users\\sudheer\\AndroidStudioProjects\\MediFinderFinal-master\\MediFinder-PatiendEnd\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 2.path=symtoms.json
 0.baseType=DIRECTORY
