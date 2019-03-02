@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\sudheer\\Downloads\\Compressed\\MediFinderFinal-master\\MediFinderFinal-master\\MediFinder-PatiendEnd\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "/home/ayush/AndroidStudioProjects/MediFinderFinal-master/MediFinder-PatiendEnd/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sudheer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-9.4.0.aar\\49ca6f71d805a8b8d9c94fdff492601d\\res\\values-en-rCA\\values.xml",
+                    "source": "/home/ayush/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/c5edf9de7f26bbf47e1427edd5bd8459/res/values-en-rCA/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

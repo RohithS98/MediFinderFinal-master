@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public void LogIn(View view) {
@@ -48,9 +49,18 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
-    public void goBack(View view){
-        Intent intent = new Intent(LoginActivity.this, Main2Activity.class);
-        startActivity(intent);
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                Intent intent = new Intent(LoginActivity.this, Main2Activity.class);
+                startActivity(intent);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
     }
 
 }

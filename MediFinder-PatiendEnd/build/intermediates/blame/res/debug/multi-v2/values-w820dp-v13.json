@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\sudheer\\Downloads\\Compressed\\MediFinderFinal-master\\MediFinderFinal-master\\MediFinder-PatiendEnd\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "/home/ayush/AndroidStudioProjects/MediFinderFinal-master/MediFinder-PatiendEnd/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sudheer\\Downloads\\Compressed\\MediFinderFinal-master\\MediFinderFinal-master\\MediFinder-PatiendEnd\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "/home/ayush/AndroidStudioProjects/MediFinderFinal-master/MediFinder-PatiendEnd/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "12",
                         "startColumns": "4",

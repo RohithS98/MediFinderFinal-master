@@ -54,10 +54,7 @@ public class MainActivity extends AppCompatActivity {
   }
   public void goToHospital(View view)
     {
-        if(currentUser==null)
-            startActivity(new Intent(MainActivity.this, LoginActivity.class));
-        else
-            startActivity(new Intent(MainActivity.this, Main2Activity.class));
+        startActivity(new Intent(MainActivity.this, Main2Activity.class));
     }
 
   @Override

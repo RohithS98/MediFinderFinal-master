@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -32,6 +34,7 @@ public class nearbyHospital extends AppCompatActivity {
         //To Receive updated of Locations from Emergency clicked button
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nearby_hospital);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Intent intent2=getIntent();
         final String lat=intent2.getStringExtra("Latitude");
         final String lon=intent2.getStringExtra("Longitude");
@@ -143,5 +146,18 @@ public class nearbyHospital extends AppCompatActivity {
                 }
             }
         });
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                Intent intent = new Intent(nearbyHospital.this, Emergency.class);
+                startActivity(intent);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
     }
 }
