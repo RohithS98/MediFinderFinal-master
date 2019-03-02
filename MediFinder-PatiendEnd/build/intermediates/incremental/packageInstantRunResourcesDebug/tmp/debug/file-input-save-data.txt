@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Mar 01 23:17:50 IST 2019
+0.baseType=DIRECTORY
+0.base=F\:\\Tools\\Medifinder-master\\MediFinder-master\\MediFinder-PatiendEnd\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.path=symtoms.json
+0.set=ASSET
+count=1
