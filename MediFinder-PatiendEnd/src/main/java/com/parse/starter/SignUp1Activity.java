@@ -52,6 +52,7 @@ public class SignUp1Activity extends AppCompatActivity {
 
             user.setUsername(usernameEditText.getText().toString());
             user.setPassword(passwordEditText.getText().toString());
+            user.put("isHospital",true);
             user.signUpInBackground(new SignUpCallback() {
                 @Override
                 public void done(ParseException e) {

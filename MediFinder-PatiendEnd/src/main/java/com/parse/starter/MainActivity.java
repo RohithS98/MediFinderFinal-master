@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
   ParseUser currentUser = ParseUser.getCurrentUser();
   public void goToPatient(View view)
   {
-    if(currentUser==null)
+    if(currentUser==null || currentUser.getBoolean("isHospital"))
       startActivity(new Intent(MainActivity.this, PatientLogin.class));
     else
       startActivity(new Intent(MainActivity.this, Emergency.class));

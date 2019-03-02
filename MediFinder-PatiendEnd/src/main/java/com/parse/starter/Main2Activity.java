@@ -25,10 +25,7 @@ import com.parse.ParseUser;
 public class Main2Activity extends AppCompatActivity {
 
     protected boolean isCurrentUserHospital(){
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("Hospital");
-        query.whereEqualTo("name", ParseUser.getCurrentUser().getUsername());
-        query.setLimit(1);
-        return true;
+        return ParseUser.getCurrentUser().getBoolean("isHospital");
     }
 
     public void goLog(View view){
